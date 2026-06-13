@@ -66,6 +66,15 @@ dotnet restore
 dotnet run
 ```
 
+## Design Decisions
+
+* Implemented the Strategy Pattern to separate conversion logic by category.
+* Used Dependency Injection to improve maintainability and testability.
+* Kept unit definitions and conversion factors hardcoded to keep the implementation simple while demonstrating extensibility.
+* Designed the solution so that additional conversion categories and units can be added with minimal code changes.
+* Structured the project into Controllers, Services, Models, and Converters to maintain separation of concerns.
+
+
 Swagger UI:
 
 ```text
